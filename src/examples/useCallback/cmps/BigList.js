@@ -8,7 +8,7 @@ function BigList({ items, counter, onCounterClick }) {
 
   const onItemClick = useCallback(event => {
     console.log('You clicked ', event.currentTarget);
-  }, [items]);
+  }, []);
   
   // const onItemClick = (event) => {
   //   console.log('You clicked ', event.currentTarget);

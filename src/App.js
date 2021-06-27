@@ -13,9 +13,9 @@ function App() {
       </header>
 
       <main className="app-main">
-          <UseCallbackExample />
+          {/* <UseCallbackExample /> */}
 
-          {/* <TableExample /> */}
+          <TableExample />
       </main>
     </div>
   );

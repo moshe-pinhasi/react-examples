@@ -1,14 +1,14 @@
 import {useState} from 'react'
 
-// import list from './data/sm_data.json'
-import list from './data/data.json'
+// import list from './data/data_400.json'
+import list from './data/data_4k.json'
 
 import SearchInput from './cmps/SearchInput'
 import ItemTable from './cmps/ItemTable'
 
 import './styles.css'
 
-const PAGE = 100
+const PAGE = 500
 
 export default function TableExample() {
   const makePage = (items) => items.slice(0, PAGE)
